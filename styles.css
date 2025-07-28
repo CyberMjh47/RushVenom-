@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00ffcc;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #00ffcc;
+  color: #000;
+}
+
+/* Hero Section */
+.hero {
+  background: #222;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #00ffcc;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+.reviews, .blog {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.review, .post {
+  margin-bottom: 15px;
+  background: #333;
+  padding: 15px;
+  border-left: 4px solid #00ffcc;
+  border-radius: 8px;
+}
+
+.review h3, .post h3 {
+  color: #00ffcc;
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background: #111;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 8px 0;
+  }
+}
